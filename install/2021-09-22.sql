@@ -1,0 +1,1 @@
+ALTER TABLE `hb_template_content` CHANGE `content` `content` LONGTEXT   NOT NULL;

@@ -1,0 +1,119 @@
+[
+    {
+      "value": "PIPE",
+      "label": "{$lang.pipemethod}",
+      "forms": [
+        {
+          "name": "email",
+          "label": "{$lang.email}",
+          "type": "text",
+          "required": true,
+          "unique": true
+        }
+      ]
+    },
+    {
+      "value": "POP",
+      "label": "{$lang.popmethod}",
+      "forms": [
+        {
+          "name": "email",
+          "label": "{$lang.email}",
+          "type": "text",
+          "required": true,
+          "unique": true
+        },
+        {
+          "name": "host",
+          "label": "{$lang.Hostname}",
+          "type": "text"
+        },
+        {
+          "name": "login",
+          "label": "{$lang.loginname}",
+          "type": "text"
+        },
+        {
+          "name": "password",
+          "label": "{$lang.Password}",
+          "type": "password"
+        },
+        {
+          "name": "port",
+          "label": "Port",
+          "type": "text",
+          "tooltip": "Default ports:<br>&nbsp; 110 - POP3,<br>&nbsp; 143 - IMAP,<br>&nbsp; 993 - IMAP+ssl,<br>&nbsp; 995 - POP3+ssl self-signed"
+        },
+        {
+          "name": "advanced",
+          "label": "Advanced options",
+          "type": "text",
+          "tooltip": "Optional mailbox flags used for PHP imap_open, for example:<br /><b>/tls</b> - to force use of start-TLS<br /><b>/ssl</b> - use the Secure Socket Layer<br /><b>/validate-cert</b> - to validate certificates from TLS/SSL server"
+        }
+      ]
+    },
+  {
+    "value": "OAUTH",
+    "label": "{$lang.oauthmethod}",
+    "forms": [
+      {
+        "name": "email",
+        "label": "{$lang.email}",
+        "type": "text",
+        "required": true,
+        "unique": true
+      },
+      {
+        "name": "host",
+        "label": "{$lang.Hostname}",
+        "type": "text"
+      },
+      {
+        "name": "port",
+        "label": "Port",
+        "type": "text",
+        "tooltip": "Default ports:<br><br>&nbsp; 143 - IMAP,<br>&nbsp; 993 - IMAP+ssl"
+      },
+      {
+        "name": "client_id",
+        "label": "{$lang.MailClientID}",
+        "type": "text"
+      },
+      {
+        "name": "client_secret",
+        "label": "{$lang.MailClientSecret}",
+        "type": "password"
+      },
+      {
+        "name": "provider",
+        "label": "{$lang.MailProvider}",
+        "type": "select",
+        "items": []
+      },
+      {
+        "name": "authorize_url",
+        "label": "{$lang.MailAuthorizeURL}",
+        "type": "text",
+        "tooltip": "Required field when Provider is Custom"
+      },
+      {
+        "name": "access_token_url",
+        "label": "{$lang.MailAccessTokenURL}",
+        "type": "text",
+        "tooltip": "Required field when Provider is Custom"
+      },
+      {
+        "name": "resource_url",
+        "label": "{$lang.MailResourceOwnerDetailsURL}",
+        "type": "text",
+        "tooltip": "Required field when Provider is Custom"
+      },
+      {
+        "name": "advanced",
+        "label": "Advanced options",
+        "type": "text",
+        "tooltip": "Optional mailbox flags used for oAuth IMAP, for example:<br /><b>/tls</b> - to force use of start-TLS<br /><b>/ssl</b> - use the Secure Socket Layer<br /><b>/validate-cert</b> - to validate certificates from TLS/SSL server"
+      }
+    ]
+  }
+ ]

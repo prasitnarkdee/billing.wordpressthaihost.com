@@ -1,0 +1,1 @@
+ALTER TABLE hb_email_log ADD COLUMN `metadata` TEXT;

@@ -1,0 +1,1 @@
+UPDATE hb_ticket_departments_staff SET `options` = `options` | 2;

@@ -1,0 +1,1 @@
+ALTER TABLE `hb_orders` ADD COLUMN `currency_id` INT(11) NOT NULL DEFAULT -1 AFTER `total`;

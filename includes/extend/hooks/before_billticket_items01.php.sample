@@ -1,0 +1,12 @@
+<?php
+
+/*
+ * Items from ticket billing feature are about to be billed (added to invoice)
+ * Following variable is available to use in this file:
+ *  $items A list of items from hb_ticket_billing_items about to be billed
+ *
+ * Note: This is modify hook, if you'll modify $items array it will affect futher processing.
+ * Ie setting: $items = [];
+ * Will  block adding any items onto invoice.
+ */
+

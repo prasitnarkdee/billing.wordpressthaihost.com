@@ -1,0 +1,74 @@
+{
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "subject": {
+    "lang": "Subject",
+    "type": "input"
+  },
+  "email": {
+    "name": "Email address",
+    "type": "input"
+  },
+  "message": {
+    "lang": "Message",
+    "type": "input"
+  },
+  "rel_type": {
+    "name": "Related Item Type",
+    "type": "select",
+    "options": [
+      {
+        "value": "client",
+        "lang": "Client"
+      },
+      {
+        "value": "contact",
+        "lang": "contact"
+      },
+      {
+        "value": "account",
+        "lang": "account"
+      },
+      {
+        "value": "domain",
+        "lang": "Domain"
+      },
+      {
+        "value": "order",
+        "lang": "order"
+      },
+      {
+        "value": "invoice",
+        "lang": "invoice"
+      },
+      {
+        "value": "estimate",
+        "lang": "estimate"
+      },
+      {
+        "value": "ticket",
+        "lang": "ticket"
+      }
+    ]
+  },
+  "rel_id": {
+    "name": "Related Item Id",
+    "type": "input"
+  },
+  "status": {
+    "lang": "Status",
+    "type": "select",
+    "options": [
+      {
+        "value": 0,
+        "lang": "Failed"
+      },
+      {
+        "value": 1,
+        "lang": "Success"
+      }
+    ]
+  }
+}

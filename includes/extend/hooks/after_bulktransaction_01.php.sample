@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Bulk transaction has been sucessfully stored in HostBill database.
+ * Child transactions are already added and triggered their after_transactionadd
+ *
+ * Following variable is available to use in this file:  $details new transaction details, following keys are available:
+ * $details['id']; //Transaction id
+ * $details['client_id']; //RELATED CLIENT ID,
+ * $details['invoice_id']; //RELATED INVOICE ID
+ * $details['module']; //RELATED GATEWAY NAME,
+ * $details['date']; //TRANSACTION DATE,
+ * $details['descr']; //TRANSACTION DESCRIPTION,
+ * $details['in']; //IN AMOUNT,
+ * $details['fee']; //APPLIED FEEs (if any),
+ * $details['out']; //AMOUNT SENT to gateway from your account (if any)
+ * $details['trans_id'];  //GATEWAY SPECIFIC Transaction ID
+ * $details['currency_id']; //Transaction currency id, default=0
+ */

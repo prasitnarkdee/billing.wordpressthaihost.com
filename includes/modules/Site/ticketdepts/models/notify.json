@@ -1,0 +1,26 @@
+[
+  {
+    "value": "1",
+    "label": "{$lang.default_mail_sender}"
+  },
+  {
+    "value": "5",
+    "label": "{$lang.additional_mail_senders}"
+  },
+  {
+    "value": "2",
+    "label": "{$lang.phpmail}"
+  },
+  {
+    "value": "3",
+    "label": "{$lang.smtpmail}"
+  },
+  {
+    "value": "4",
+    "label": "{$lang.MailUseTransactional}"
+  },
+  {
+    "value": "0",
+    "label": "{$lang.none}"
+  }
+]

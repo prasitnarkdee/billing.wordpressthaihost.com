@@ -1,0 +1,1 @@
+ALTER TABLE `hb_products` ADD `autohostname`  VARCHAR(255) NULL  DEFAULT '' AFTER `hostname`;

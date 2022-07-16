@@ -1,0 +1,1 @@
+ALTER TABLE hb_language_locales ADD COLUMN `flags` INT(8)  NOT NULL  DEFAULT '0';

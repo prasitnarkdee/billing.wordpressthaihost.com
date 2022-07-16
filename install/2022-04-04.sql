@@ -1,0 +1,1 @@
+ALTER TABLE `hb_accounts_addons` ADD `extra_details` TEXT NULL;

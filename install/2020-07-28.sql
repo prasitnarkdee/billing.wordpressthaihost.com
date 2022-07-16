@@ -1,0 +1,1 @@
+ALTER TABLE `hb_products` ADD `layout` VARCHAR(255) NULL DEFAULT 'left';

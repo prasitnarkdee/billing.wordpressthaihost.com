@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'global', 'please_submit_payment', 'Please press the button below to process your payment with our payment provider' FROM hb_language

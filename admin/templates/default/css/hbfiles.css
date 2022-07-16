@@ -1,0 +1,101 @@
+.hbfiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hbfiles .hbfile {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #c2cbd2;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hbfiles .hbfile:hover {
+    border: 1px solid #84a4b9;
+}
+
+.hbfiles .hbfile .hbfile-placeholder-box {
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.hbfiles .hbfile .hbfile-placeholder {
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hbfiles .hbfile .hbfile-placeholder-empty {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #bbb;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hbfiles .hbfile .hbfile-placeholder-empty i {
+    font-size: 36px;
+    margin-top: 10px;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+.hbfiles .hbfile:hover .hbfile-control {
+    display: flex;
+}
+
+.hbfiles .hbfile .hbfile-control {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.hbfiles .hbfile .hbfile-control-icon {
+    font-size: 14px;
+    color: #98a6ad;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: .7;
+}
+
+.hbfiles .hbfile .hbfile-control-icon:hover {
+    opacity: 1;
+
+}
+
+.hbfiles .hbfile .hbfile-control-icon.hbfile-remove {
+    color: #e74c3c;
+}
+
+.hbfiles .hbfile .hbfile-title {
+    padding: 5px;
+    background-color: #f5f5f5;
+    text-overflow: ellipsis;
+    color: #777;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    max-width: 150px;
+}

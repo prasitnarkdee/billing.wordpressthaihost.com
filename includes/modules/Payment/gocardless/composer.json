@@ -1,0 +1,10 @@
+{
+  "name": "hostbill/gocardless",
+  "version": "4.17.0",
+  "require": {
+    "gocardless/gocardless-pro-php": "4.17.0"
+  },
+  "replace": {
+    "guzzlehttp/guzzle": "*"
+  }
+}

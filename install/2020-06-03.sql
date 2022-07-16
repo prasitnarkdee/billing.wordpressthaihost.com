@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `hb_invoice_numeration` (
+    `counter`    VARCHAR(50) NOT NULL,
+    `value`      INT(11)     NOT NULL,
+    `updated_at` TIMESTAMP   NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (`counter`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

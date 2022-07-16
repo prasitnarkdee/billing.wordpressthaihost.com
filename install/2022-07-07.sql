@@ -1,0 +1,1 @@
+ALTER TABLE `hb_invoice_items` CHANGE `type` `type` ENUM('Domain Register','Domain Renew','Domain Transfer','Hosting','Addon','Other','Upgrade','Invoice','Config','Credit','FieldUpgrade','Field','Discount','Support','Ticket','RefundedItem','OSLicense','LateFee','MeteredItem')   NOT NULL  DEFAULT 'Other';

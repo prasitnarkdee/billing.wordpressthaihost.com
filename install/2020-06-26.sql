@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'cart', 'coupon_rate_limit', 'You cannot use coupon codes now, please contact support to apply discount to your order' FROM hb_language WHERE target = 'user';

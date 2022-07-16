@@ -1,0 +1,1 @@
+DELETE FROM `hb_admin_widgets` WHERE `widget` = 'adminevents.allinpromo3';

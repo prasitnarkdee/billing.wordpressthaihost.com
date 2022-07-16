@@ -1,0 +1,5 @@
+{
+    "require": {
+        "postfinancecheckout/sdk": "^3.0"
+    }
+}

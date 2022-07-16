@@ -1,0 +1,1 @@
+ALTER TABLE `hb_modules_configuration` ADD `team_access` VARCHAR(128) NULL DEFAULT '' AFTER `access`;

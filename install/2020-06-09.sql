@@ -1,0 +1,1 @@
+ALTER TABLE hb_transactions MODIFY COLUMN `trans_id` VARCHAR(70);
